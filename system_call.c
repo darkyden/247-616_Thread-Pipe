@@ -4,20 +4,18 @@
  * @brief   Exemple de code C pour des appels systèmes 
  *          (équivalent à une commande dans un émulateur de terminal, ou un script Bash)
  * 
- * @author  Kevin Cotton
- * @date    2024-08-02
+ * @author  Harold Malbrouck
+ * @date    2024-09-30
  *
  */
 #include <stdlib.h>
 #include <stdio.h>
 
 /**
- * Ecris processus 1 sur le terminal  
- * Met le programme en pause de 10s (processus 2)
- * Ecris processus 3 sur le terminal
- * Met le programme en pause de  5s (processus 4)
- * Ecris processus 5 sur le terminal
- * imprime terminé puis quitte
+ * Ce programme affiche instannement processus 1  à l'ecran 
+ * Après 10s affiche processus 3
+ * Après 5s affiche processus 5
+ * puis affiche terminé et s'arrete
  * @return     0 
  */
 int main() {

@@ -3,8 +3,8 @@
  * 
  * @brief   Exemple de code C pour des processus (thread) avec la fonction fork, 
  * 
- * @author  Kevin Cotton
- * @date    2024-08-02
+ * @author  Harold Malbrouck
+ * @date    2024-09-30
  *
  */
 //#define _XOPEN_SOURCE 800
@@ -43,10 +43,10 @@ int main()
     pid = fork();
 
     // Appel fonction Enfant
-
-
+	codeDuProcessusEnfant();	
+       wait(NULL);
     // Appel fonction Parent
-
+	codeDuProcessusParent();
     
     return 0;
 }

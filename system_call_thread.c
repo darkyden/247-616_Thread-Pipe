@@ -5,8 +5,8 @@
  *          (équivalent à une commande dans un émulateur de terminal, ou un script Bash)
  *          Avec processus en arrière plan : &
  * 
- * @author  Kevin Cotton
- * @date    2024-08-02
+ * @author  Harold Malbrouck
+ * @date    2024-09-30
  *
  */
 #include <stdlib.h>
