@@ -12,10 +12,12 @@
 #include <stdio.h>
 
 /**
- * 
- *
- *
- *
+ * Ecris processus 1 sur le terminal  
+ * Met le programme en pause de 10s (processus 2)
+ * Ecris processus 3 sur le terminal
+ * Met le programme en pause de  5s (processus 4)
+ * Ecris processus 5 sur le terminal
+ * imprime terminé puis quitte
  * @return     0 
  */
 int main() {
